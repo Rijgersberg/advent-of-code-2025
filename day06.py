@@ -35,6 +35,5 @@ lines = get_input(day=6, as_list=False).splitlines()
 problems = parse1(lines)
 print(sum(eval(problem) for problem in problems))
 
-
 problems = parse2(lines)
 print(sum(eval(problem) for problem in problems))
